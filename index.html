@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Online</title>
+    <title>Mar Shop</title>
     <link rel="stylesheet" href="styles.css/styles.css">
     <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -25,18 +25,17 @@
         </nav>
         <div class="actions">
             <a href="#login"><i class="fa-regular fa-user"></i></a>
-            <a href="#carrito">Carrito</a>
+            <a href="#carrito"></a><i class="fa-solid fa-cart-shopping"></i>
         </div>
     </header>
     
     <div class="container">
     
         <section class="slogan" id="slogan">
-            <h2>"Los mejores productos al mejor precio"</h2>
-            <pre id="slogan">Con nuestros productos 
-                y tú preciosa sonrisa,
-                tu hogar y tu,
-                sereis lo que más brilla</pre>
+            <h2>"Brillo, sonrisa y estas divina"</h2>
+            <pre>
+        Con nuestros productos y tú preciosa sonrisa,
+        tu hogar y tu, sereis lo que más brilla</pre>
         </section>
 
 
@@ -44,33 +43,36 @@
        <section class="categorias" id="categorias">
         <h2>Categorías</h2>
         <div class="categoria-lista">
-            <div class="categoria">
-                <div class="categoria-card">
-                    <div class="categoria-front">
-                        <img src="img/categoriaElectronica.png" alt="Electrónica">
-                        <h3>Electrónica</h3>
-                    </div>
-                    <div class="categoria-back">
-                        <p>Esta seccion esta pensada para aparatos electronicos.</p>
-                    </div>
-                </div>
-            </div>
+            <!--DIV PARA LA CATEGORIA ROPA-->
             <div class="categoria">
                 <div class="categoria-card">
                     <div class="categoria-front">
                         <img src="img/categoriaropa.png" alt="Ropa">
-                        <h3>Ropa</h3>
+                        <h3>ROPA</h3>
                     </div>
                     <div class="categoria-back">
                         <p>Esta seccion es la moda para todas las temporadas y estilos.</p>
                     </div>
                 </div>
             </div>
+     <!--DIV PARA LA CATEGORIA ELECTRONICA-->
+            <div class="categoria">
+                <div class="categoria-card">
+                    <div class="categoria-front">
+                        <img src="img/categoriaElectronica.png" alt="Electrónica">
+                        <h3>ELECTRONICA</h3>
+                    </div>
+                    <div class="categoria-back">
+                        <p>Esta seccion esta pensada para aparatos electronicos.</p>
+                    </div>
+                </div>
+            </div>
+     <!--DIV PARA LA CATEGORIA HOGAR-->
             <div class="categoria">
                 <div class="categoria-card">
                     <div class="categoria-front">
                         <img src="img/categoriahogar.png" alt="Hogar">
-                        <h3>Hogar</h3>
+                        <h3>HOGAR</h3>
                     </div>
                     <div class="categoria-back">
                         <p>Seccion en la que con tu hogar, destacaras.</p>
@@ -82,9 +84,10 @@
     
 
 
-        <h2>Zapatos</h2>
+        
         <section class="productos" id="productos">
-       
+
+            <h2>Zapatos</h2>
             <div class="producto">
                 <img src="img/zapato1.webp" alt="Producto 1">
                 <h3>Producto 1</h3>
@@ -217,8 +220,8 @@
             <div class="producto">
                 <img src="img/electronica6.png" alt="Producto 3">
                 <h3>Producto 18</h3>
-                <p>Descripción breve del producto 3.</p>
-                <p><strong>$39.99</strong></p>
+                <p>Robot de limpieza.</p>
+                <p><strong>89.99€</strong></p>
                 <button>añadir al carrito</button>
             </div>
 
@@ -250,14 +253,19 @@
         <section class="ofertas" id="ofertas">
             <h2>Ofertas</h2>
             <div class="oferta">
-                <img src="https://via.placeholder.com/200" alt="Oferta 1">
+                <img src="img/categoriaElectronica.png" alt="Oferta 1">
                 <h3>Oferta 1</h3>
-                <p>50% de descuento en productos seleccionados.</p>
+                <p>50% de descuento en productos de electronica, al llevarte 2.</p>
             </div>
             <div class="oferta">
-                <img src="https://via.placeholder.com/200" alt="Oferta 2">
+                <img src="img/ropa1.png" alt="Oferta 2">
                 <h3>Oferta 2</h3>
                 <p>Compra uno y lleva otro gratis.</p>
+            </div>
+            <div class="oferta">
+                <img src="img/hogar2.png" alt="Oferta 2">
+                <h3>Oferta 3</h3>
+                <p>Rebajada un 70%.</p>
             </div>
         </section>
     
@@ -294,7 +302,37 @@
 </div>
 
 <footer>
-    <p>&copy; 2024/25 Mar Shop. Todos los derechos reservados. Marta Marin Lorente</p>
+ 
+
+    <p> Siguenos
+        <a href="https://www.facebook.com/?locale=es_ES">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/">
+            <i class="fa-brands fa-instagram"></i> 
+        </a>
+        <a href="https://www.tiktok.com/">
+            <i class="fa-brands fa-tiktok"></i> 
+        </a>
+        <a href="https://x.com/home?lang=es">
+            <i class="fa-brands fa-x"></i> 
+        </a>
+    </p>
+
+    <div>Metodos de pago
+       <a href="https://www.paypal.com/es/home"><i class="fa-brands fa-cc-paypal"></i></a> 
+       <a> <i class="fa-regular fa-credit-card"></i></a>
+    </div>
+    <div>Sobre nosotros
+    <a href>Quien somos</a>
+    <a href="https://g.co/kgs/fGg3G7m">Donde estamos</a>
+</div>
+<div>Legal
+    <a href="">Legal</a>
+    <a href="">Legal</a>
+    <a href="">Legal</a>
+</div>
+<p>&copy; 2024/25 Mar Shop. Todos los derechos reservados. Marta Marin Lorente</p>
 </footer>
 
 </body>

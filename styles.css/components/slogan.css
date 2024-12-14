@@ -1,51 +1,12 @@
-.slogan{
-@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
-}
-.sansita-regular {
+
+  .slogan pre{
     font-family: "Sansita", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .sansita-bold {
-    font-family: "Sansita", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .sansita-extrabold {
-    font-family: "Sansita", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .sansita-black {
-    font-family: "Sansita", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .sansita-regular-italic {
-    font-family: "Sansita", sans-serif;
-    font-weight: 400;
+    font-weight: 4000;
     font-style: italic;
+    text-align: center;
+    color: purple;
+    background-image: url("https://img.freepik.com/vector-premium/fondo-brillos-coloridos-abstractos_1055-4419.jpg");
   }
   
-  .sansita-bold-italic {
-    font-family: "Sansita", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .sansita-extrabold-italic {
-    font-family: "Sansita", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .sansita-black-italic {
-    font-family: "Sansita", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
+
   

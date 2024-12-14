@@ -2,14 +2,13 @@
 .categoria-lista {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
 }
 
 /* Tarjeta de categoría */
 .categoria {
     width: 30%;
     perspective: 1000px;
+    gap: 10rem;
 }
 
 .categoria-card {
@@ -29,6 +28,8 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    margin: 0.5rem;
+    max-height: 45rem;
     backface-visibility: hidden; /* Oculta la cara trasera cuando gira */
     display: flex;
     flex-direction: column;
@@ -39,8 +40,8 @@
 
 .categoria-front img {
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 100%;
+    object-fit: content;
 }
 
 /* Cara trasera de la tarjeta */

@@ -1,6 +1,4 @@
 .siguenos a {
-    margin: 0 10px;
+    margin: 5rem;
+    size: 5vh;
     }
-.siguenos a:hover {
-    text-decoration: underline;
-}
