@@ -1,0 +1,25 @@
+header {
+    background-color: rgb(105, 66, 105);
+    color: rgba(255, 218, 6, 0.755);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+header .logo img {
+    max-height: 80px;
+    display: block;
+}
+header nav {
+    display: flex;
+    gap: 15px;
+}
+header nav a {
+    color: rgba(255, 218, 6, 0.755);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+header nav a:hover {
+    color: #f4f4f4;
+}
