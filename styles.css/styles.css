@@ -3,6 +3,9 @@
 @import url(components/productos.css);
 @import url(components/footer.css);
 @import url(components/slogan.css);
+@import url(components/categoria.css);
+@import url(components/oferta.css);
+@import url(components/botones.css);
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,18 +13,7 @@ body {
     line-height: 1.6;
 }
 
-.actions {
-    display: flex;
-    gap: 15px;
-}
-.actions a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-}
-.actions a:hover {
-    color: #f4f4f4;
-}
+
 .container {
     width: 90%;
     margin: auto;

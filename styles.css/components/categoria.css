@@ -1,0 +1,60 @@
+/* Contenedor de la lista de categorías */
+.categoria-lista {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Tarjeta de categoría */
+.categoria {
+    width: 30%;
+    perspective: 1000px;
+}
+
+.categoria-card {
+    width: 100%;
+    height: 300px; /* Tamaño de la tarjeta */
+    position: relative;
+    transform-style: preserve-3d; /* Asegura que las caras se conserven al girar */
+    transition: transform 0.6s; /* Tiempo de rotación */
+}
+
+.categoria:hover .categoria-card {
+    transform: rotateY(180deg); /* Gira la tarjeta cuando pasa el cursor */
+}
+
+/* Cara frontal de la tarjeta */
+.categoria-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta la cara trasera cuando gira */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.categoria-front img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Cara trasera de la tarjeta */
+.categoria-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta la cara frontal cuando gira */
+    background-color: #f7f7f7; /* Fondo de la parte trasera */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    transform: rotateY(180deg); /* Voltea la parte trasera */
+}
